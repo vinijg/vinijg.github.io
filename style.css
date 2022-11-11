@@ -1,0 +1,32 @@
+ table,th,td {
+     border: 1px ridge;
+     border-collapse: collapse;
+     border-color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+ th{
+    text-decoration: underline;
+ }
+
+ table {
+     width: 500px;
+ }
+
+ th.item {
+     width: 250px;
+     text-align: start;
+ }
+
+ tr.ovo {
+     text-decoration: line-through;
+ }
+
+ th,
+ td.preco {
+     text-align: end;
+ }
+
+ th.qtd {
+     text-align: center;
+ }
